@@ -1,0 +1,30 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+
+## Uploaded files (never commit user documents)
+src/DocAssistant.Api/storage/
+
+## Secrets
+appsettings.Development.json
+*.env
+.env
+
+## Node (Phase 3)
+node_modules/
+dist/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Local helper scripts and logs
+*-log.txt
+setup.bat
+check-sql.bat
+git-push.bat
